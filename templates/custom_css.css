@@ -1,0 +1,30 @@
+.animate__animated.animate__zoomOut {
+  --animate-duration: 1s;
+}
+
+.animate__animated.animate__zoomIn {
+  --animate-duration: 0.5s;
+}
+
+.img_portfolio {
+  width: 20vw;
+  margin: 1rem;
+}
+
+#images_portfolio {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+#nav-portfolio {
+  display: flex;
+  justify-content: center;
+}
+
+#nav-portfolio li {
+  display: inline-block;
+  margin: 0px 10px 0px 10px;
+  padding: 3px 15px;
+  background-color: rgba(128, 128, 128, 0.835);
+}
